@@ -1,0 +1,28 @@
+[data-cellid="left_c0"][data-page="usuario_list"][data-cellid="left_c0"][data-page="usuario_list"][data-cellid="left_c0"][data-page="usuario_list"] {
+  background-color: #327240;
+}
+[data-cellid="grid_footcell_field"][data-page="usuario_list"][data-cellid="grid_footcell_field"][data-page="usuario_list"][data-cellid="grid_footcell_field"][data-page="usuario_list"] {
+  white-space: nowrap;
+}
+[data-cellid="grid_footcell_field1"][data-page="usuario_list"][data-cellid="grid_footcell_field1"][data-page="usuario_list"][data-cellid="grid_footcell_field1"][data-page="usuario_list"] {
+  white-space: nowrap;
+}
+[data-cellid="grid_footcell_field2"][data-page="usuario_list"][data-cellid="grid_footcell_field2"][data-page="usuario_list"][data-cellid="grid_footcell_field2"][data-page="usuario_list"] {
+  white-space: nowrap;
+}
+[data-cellid="grid_headcell_icons"][data-page="usuario_list"][data-cellid="grid_headcell_icons"][data-page="usuario_list"][data-cellid="grid_headcell_icons"][data-page="usuario_list"] {
+  width: 30px;
+}
+[data-cellid="grid_cell_icons"][data-page="usuario_list"][data-cellid="grid_cell_icons"][data-page="usuario_list"][data-cellid="grid_cell_icons"][data-page="usuario_list"] {
+  white-space: nowrap;
+}
+[data-cellid="grid_headcell_checkbox"][data-page="usuario_list"][data-cellid="grid_headcell_checkbox"][data-page="usuario_list"][data-cellid="grid_headcell_checkbox"][data-page="usuario_list"] {
+  width: 30px;
+}
+
+/* Put  your custom CSS code here */
+
+[data-cellid="left_c0"][data-page="usuario_list"][data-cellid="left_c0"][data-page="usuario_list"][data-cellid="left_c0"][data-page="usuario_list"] {
+  border-color: #327240; 
+}
+
