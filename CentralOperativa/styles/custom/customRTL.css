@@ -1,0 +1,18 @@
+.navbar {
+background: #327240;
+border-color: #327240; 
+}
+.btn.btn-primary {
+background: #327240; 
+border-color: #327240; 
+}
+.panel-primary > div.panel-heading {
+background: #327240; 
+border-color: #327240; 
+}
+
+.navbar-nav>li>a, a.navbar-brand {
+color: #327240 !important; 
+border-color: #327240; 
+background: #ffffff; 
+}
