@@ -1,0 +1,165 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel servicio import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"hidden":"{$item_hide_import_field1}","text":{$NroContrato_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field2}","text":{$FechaContrato_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field3}","text":{$ServicioClase_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field4}","text":{$IdTipoServicio_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field5}","text":{$DocTitular_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field6}","text":{$Titular_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field7}","text":{$Observacion_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field8}","text":{$DocFallecido_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field9}","text":{$Fallecido_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field10}","text":{$Sexo_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field11}","text":{$FHFallecimiento_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field12}","text":{$IdCausa_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field13}","text":{$Recojo_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field14}","text":{$Instalacion_pdfvalue}},
+				
+				
+			{"hidden":"{$item_hide_import_field15}","text":{$Despacho_pdfvalue}},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  
