@@ -1,0 +1,417 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="edit_header" data-itemid="edit_header" {$item_edit_header} data-pageid="{$pageid}" >{$pagetitlelabel Instalacion edit}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<div data-itemtype="edit_message" data-itemid="edit_message" {$item_edit_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN back_button}
+			<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>Ver</button>
+{END view_page_button}
+</div>
+</div>
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr>
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN IdServicio_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdServicio}  r-vertical-field" 
+	data-fieldname="IdServicio" 
+	data-signal-error-for="IdServicio{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="IdServicio" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdServicio}">
+		{BEGIN IdServicio_label}{$label Instalacion IdServicio }{END IdServicio_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdServicio_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdServicio">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdServicio }		</div>
+	</div>
+</div>
+
+
+{END IdServicio_fieldblock}
+											
+{BEGIN FHInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_FHInstalacion}  r-vertical-field" 
+	data-fieldname="FHInstalacion" 
+	data-signal-error-for="FHInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13} data-pageid="{$pageid}" data-field="FHInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_FHInstalacion}">
+		{BEGIN FHInstalacion_label}{$label Instalacion FHInstalacion }{END FHInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$FHInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="FHInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion FHInstalacion }		</div>
+	</div>
+</div>
+
+
+{END FHInstalacion_fieldblock}
+											
+{BEGIN IdAtaud_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdAtaud}  r-vertical-field" 
+	data-fieldname="IdAtaud" 
+	data-signal-error-for="IdAtaud{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14} data-pageid="{$pageid}" data-field="IdAtaud" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdAtaud}">
+		{BEGIN IdAtaud_label}{$label Instalacion IdAtaud }{END IdAtaud_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdAtaud_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdAtaud">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdAtaud }		</div>
+	</div>
+</div>
+
+
+{END IdAtaud_fieldblock}
+											
+{BEGIN IdUrna_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdUrna}  r-vertical-field" 
+	data-fieldname="IdUrna" 
+	data-signal-error-for="IdUrna{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15} data-pageid="{$pageid}" data-field="IdUrna" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdUrna}">
+		{BEGIN IdUrna_label}{$label Instalacion IdUrna }{END IdUrna_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdUrna_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdUrna">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdUrna }		</div>
+	</div>
+</div>
+
+
+{END IdUrna_fieldblock}
+											
+{BEGIN IdSedeInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdSedeInstalacion}  r-vertical-field" 
+	data-fieldname="IdSedeInstalacion" 
+	data-signal-error-for="IdSedeInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16} data-pageid="{$pageid}" data-field="IdSedeInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdSedeInstalacion}">
+		{BEGIN IdSedeInstalacion_label}{$label Instalacion IdSedeInstalacion }{END IdSedeInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdSedeInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdSedeInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdSedeInstalacion }		</div>
+	</div>
+</div>
+
+
+{END IdSedeInstalacion_fieldblock}
+											
+{BEGIN IdVelatorio_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdVelatorio}  r-vertical-field" 
+	data-fieldname="IdVelatorio" 
+	data-signal-error-for="IdVelatorio{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17} data-pageid="{$pageid}" data-field="IdVelatorio" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdVelatorio}">
+		{BEGIN IdVelatorio_label}{$label Instalacion IdVelatorio }{END IdVelatorio_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdVelatorio_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdVelatorio">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdVelatorio }		</div>
+	</div>
+</div>
+
+
+{END IdVelatorio_fieldblock}
+											
+{BEGIN IdUbigeoInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdUbigeoInstalacion}  r-vertical-field" 
+	data-fieldname="IdUbigeoInstalacion" 
+	data-signal-error-for="IdUbigeoInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18} data-pageid="{$pageid}" data-field="IdUbigeoInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdUbigeoInstalacion}">
+		{BEGIN IdUbigeoInstalacion_label}{$label Instalacion IdUbigeoInstalacion }{END IdUbigeoInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdUbigeoInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdUbigeoInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdUbigeoInstalacion }		</div>
+	</div>
+</div>
+
+
+{END IdUbigeoInstalacion_fieldblock}
+											
+{BEGIN TurnoInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TurnoInstalacion}  r-vertical-field" 
+	data-fieldname="TurnoInstalacion" 
+	data-signal-error-for="TurnoInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19} data-pageid="{$pageid}" data-field="TurnoInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_TurnoInstalacion}">
+		{BEGIN TurnoInstalacion_label}{$label Instalacion TurnoInstalacion }{END TurnoInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$TurnoInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="TurnoInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion TurnoInstalacion }		</div>
+	</div>
+</div>
+
+
+{END TurnoInstalacion_fieldblock}
+											
+{BEGIN IdPersonalInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdPersonalInstalacion}  r-vertical-field" 
+	data-fieldname="IdPersonalInstalacion" 
+	data-signal-error-for="IdPersonalInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20} data-pageid="{$pageid}" data-field="IdPersonalInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdPersonalInstalacion}">
+		{BEGIN IdPersonalInstalacion_label}{$label Instalacion IdPersonalInstalacion }{END IdPersonalInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdPersonalInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdPersonalInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdPersonalInstalacion }		</div>
+	</div>
+</div>
+
+
+{END IdPersonalInstalacion_fieldblock}
+											
+{BEGIN IdVehiculoInstalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdVehiculoInstalacion}  r-vertical-field" 
+	data-fieldname="IdVehiculoInstalacion" 
+	data-signal-error-for="IdVehiculoInstalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21} data-pageid="{$pageid}" data-field="IdVehiculoInstalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdVehiculoInstalacion}">
+		{BEGIN IdVehiculoInstalacion_label}{$label Instalacion IdVehiculoInstalacion }{END IdVehiculoInstalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdVehiculoInstalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdVehiculoInstalacion">
+		<div class="text-muted" >
+		{$tooltip Instalacion IdVehiculoInstalacion }		</div>
+	</div>
+</div>
+
+
+{END IdVehiculoInstalacion_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN save_edit}
+<span data-itemtype="edit_save" data-itemid="edit_save" {$item_edit_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+{END save_edit}
+	 
+		{BEGIN back_button}
+<span data-itemtype="edit_back_list" data-itemid="edit_back_list" {$item_edit_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="edit_close" data-itemid="edit_close" {$item_edit_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$closebutton_attrs} >
+							Cancelar			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+									<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+								<li data-itemtype="edit_reset" data-itemid="edit_reset" {$item_edit_reset} data-pageid="{$pageid}" data-small >
+				<a  {$resetbutton_attrs}  title="" >
+				
+		Reiniciar		
+		</a>
+	</li>
+							{BEGIN view_page_button}
+	<li data-itemtype="edit_view" data-itemid="edit_view" {$item_edit_view} data-pageid="{$pageid}" data-small >
+				<a  href="instalacion_view.php?{$editlink}" {$view_page_button_attrs}  title="" >
+				
+		Ver		
+		</a>
+	</li>
+{END view_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

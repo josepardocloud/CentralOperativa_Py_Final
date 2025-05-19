@@ -1,0 +1,463 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="edit_header" data-itemid="edit_header" {$item_edit_header} data-pageid="{$pageid}" >{$pagetitlelabel detalleservicio edit}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<div data-itemtype="edit_message" data-itemid="edit_message" {$item_edit_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN back_button}
+			<button class="btn btn-sm btn-default" {$backbutton_attrs}>Volver a la lista</button>
+	{END back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>Ver</button>
+{END view_page_button}
+</div>
+</div>
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr>
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN IdServicio_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdServicio}  r-vertical-field" 
+	data-fieldname="IdServicio" 
+	data-signal-error-for="IdServicio{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="IdServicio" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdServicio}">
+		{BEGIN IdServicio_label}{$label detalleservicio IdServicio }{END IdServicio_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdServicio_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdServicio">
+		<div class="text-muted" >
+		{$tooltip detalleservicio IdServicio }		</div>
+	</div>
+</div>
+
+
+{END IdServicio_fieldblock}
+											
+{BEGIN FHRecojo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_FHRecojo}  r-vertical-field" 
+	data-fieldname="FHRecojo" 
+	data-signal-error-for="FHRecojo{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="FHRecojo" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_FHRecojo}">
+		{BEGIN FHRecojo_label}{$label detalleservicio FHRecojo }{END FHRecojo_label}
+	</label>
+	<div class="r-edit-field">
+		{$FHRecojo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="FHRecojo">
+		<div class="text-muted" >
+		{$tooltip detalleservicio FHRecojo }		</div>
+	</div>
+</div>
+
+
+{END FHRecojo_fieldblock}
+											
+{BEGIN IdSedeRecojo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdSedeRecojo}  r-vertical-field" 
+	data-fieldname="IdSedeRecojo" 
+	data-signal-error-for="IdSedeRecojo{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="IdSedeRecojo" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdSedeRecojo}">
+		{BEGIN IdSedeRecojo_label}{$label detalleservicio IdSedeRecojo }{END IdSedeRecojo_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdSedeRecojo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdSedeRecojo">
+		<div class="text-muted" >
+		{$tooltip detalleservicio IdSedeRecojo }		</div>
+	</div>
+</div>
+
+
+{END IdSedeRecojo_fieldblock}
+											
+{BEGIN Lugar_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Lugar}  r-vertical-field" 
+	data-fieldname="Lugar" 
+	data-signal-error-for="Lugar{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="Lugar" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Lugar}">
+		{BEGIN Lugar_label}{$label detalleservicio Lugar }{END Lugar_label}
+	</label>
+	<div class="r-edit-field">
+		{$Lugar_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Lugar">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Lugar }		</div>
+	</div>
+</div>
+
+
+{END Lugar_fieldblock}
+											
+{BEGIN Turno_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Turno}  r-vertical-field" 
+	data-fieldname="Turno" 
+	data-signal-error-for="Turno{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="Turno" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Turno}">
+		{BEGIN Turno_label}{$label detalleservicio Turno }{END Turno_label}
+	</label>
+	<div class="r-edit-field">
+		{$Turno_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Turno">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Turno }		</div>
+	</div>
+</div>
+
+
+{END Turno_fieldblock}
+											
+{BEGIN IdUbigeoRecojo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdUbigeoRecojo}  r-vertical-field" 
+	data-fieldname="IdUbigeoRecojo" 
+	data-signal-error-for="IdUbigeoRecojo{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="IdUbigeoRecojo" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdUbigeoRecojo}">
+		{BEGIN IdUbigeoRecojo_label}{$label detalleservicio IdUbigeoRecojo }{END IdUbigeoRecojo_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdUbigeoRecojo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdUbigeoRecojo">
+		<div class="text-muted" >
+		{$tooltip detalleservicio IdUbigeoRecojo }		</div>
+	</div>
+</div>
+
+
+{END IdUbigeoRecojo_fieldblock}
+											
+{BEGIN Instalacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Instalacion}  r-vertical-field" 
+	data-fieldname="Instalacion" 
+	data-signal-error-for="Instalacion{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="Instalacion" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Instalacion}">
+		{BEGIN Instalacion_label}{$label detalleservicio Instalacion }{END Instalacion_label}
+	</label>
+	<div class="r-edit-field">
+		{$Instalacion_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Instalacion">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Instalacion }		</div>
+	</div>
+</div>
+
+
+{END Instalacion_fieldblock}
+											
+{BEGIN Necropcia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Necropcia}  r-vertical-field" 
+	data-fieldname="Necropcia" 
+	data-signal-error-for="Necropcia{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="Necropcia" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Necropcia}">
+		{BEGIN Necropcia_label}{$label detalleservicio Necropcia }{END Necropcia_label}
+	</label>
+	<div class="r-edit-field">
+		{$Necropcia_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Necropcia">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Necropcia }		</div>
+	</div>
+</div>
+
+
+{END Necropcia_fieldblock}
+											
+{BEGIN Camara_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Camara}  r-vertical-field" 
+	data-fieldname="Camara" 
+	data-signal-error-for="Camara{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="Camara" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Camara}">
+		{BEGIN Camara_label}{$label detalleservicio Camara }{END Camara_label}
+	</label>
+	<div class="r-edit-field">
+		{$Camara_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Camara">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Camara }		</div>
+	</div>
+</div>
+
+
+{END Camara_fieldblock}
+											
+{BEGIN Nivel_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Nivel}  r-vertical-field" 
+	data-fieldname="Nivel" 
+	data-signal-error-for="Nivel{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="Nivel" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_Nivel}">
+		{BEGIN Nivel_label}{$label detalleservicio Nivel }{END Nivel_label}
+	</label>
+	<div class="r-edit-field">
+		{$Nivel_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="Nivel">
+		<div class="text-muted" >
+		{$tooltip detalleservicio Nivel }		</div>
+	</div>
+</div>
+
+
+{END Nivel_fieldblock}
+											
+{BEGIN IdPersonalRecojo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdPersonalRecojo}  r-vertical-field" 
+	data-fieldname="IdPersonalRecojo" 
+	data-signal-error-for="IdPersonalRecojo{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11} data-pageid="{$pageid}" data-field="IdPersonalRecojo" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdPersonalRecojo}">
+		{BEGIN IdPersonalRecojo_label}{$label detalleservicio IdPersonalRecojo }{END IdPersonalRecojo_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdPersonalRecojo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdPersonalRecojo">
+		<div class="text-muted" >
+		{$tooltip detalleservicio IdPersonalRecojo }		</div>
+	</div>
+</div>
+
+
+{END IdPersonalRecojo_fieldblock}
+											
+{BEGIN IdVehiculoRecojo_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdVehiculoRecojo}  r-vertical-field" 
+	data-fieldname="IdVehiculoRecojo" 
+	data-signal-error-for="IdVehiculoRecojo{$id}" 
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12} data-pageid="{$pageid}" data-field="IdVehiculoRecojo" >
+
+
+	<label class="r-edit-label control-label" for="{$labelfor_IdVehiculoRecojo}">
+		{BEGIN IdVehiculoRecojo_label}{$label detalleservicio IdVehiculoRecojo }{END IdVehiculoRecojo_label}
+	</label>
+	<div class="r-edit-field">
+		{$IdVehiculoRecojo_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="IdVehiculoRecojo">
+		<div class="text-muted" >
+		{$tooltip detalleservicio IdVehiculoRecojo }		</div>
+	</div>
+</div>
+
+
+{END IdVehiculoRecojo_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN save_edit}
+<span data-itemtype="edit_save" data-itemid="edit_save" {$item_edit_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							Guardar			</a>
+</span>
+{END save_edit}
+	 
+		{BEGIN back_button}
+<span data-itemtype="edit_back_list" data-itemid="edit_back_list" {$item_edit_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="edit_close" data-itemid="edit_close" {$item_edit_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$closebutton_attrs} >
+							Cancelar			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+									<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+								<li data-itemtype="edit_reset" data-itemid="edit_reset" {$item_edit_reset} data-pageid="{$pageid}" data-small >
+				<a  {$resetbutton_attrs}  title="" >
+				
+		Reiniciar		
+		</a>
+	</li>
+							{BEGIN view_page_button}
+	<li data-itemtype="edit_view" data-itemid="edit_view" {$item_edit_view} data-pageid="{$pageid}" data-small >
+				<a  href="detalleservicio_view.php?{$editlink}" {$view_page_button_attrs}  title="" >
+				
+		Ver		
+		</a>
+	</li>
+{END view_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

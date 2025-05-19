@@ -1,0 +1,286 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header} data-pageid="{$pageid}" >{$pagetitlelabel Despacho view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr>
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN IdServicio_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdServicio}  r-vertical-field" data-fieldname="IdServicio" data-signal-error-for="IdServicio{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="IdServicio" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_IdServicio}">
+		
+		{BEGIN IdServicio_label}{$label Despacho IdServicio }{END IdServicio_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$IdServicio_value}	</div>
+
+		
+</div>
+
+
+{END IdServicio_fieldblock}
+											
+{BEGIN FHDespacho_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_FHDespacho}  r-vertical-field" data-fieldname="FHDespacho" data-signal-error-for="FHDespacho{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22} data-pageid="{$pageid}" data-field="FHDespacho" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_FHDespacho}">
+		
+		{BEGIN FHDespacho_label}{$label Despacho FHDespacho }{END FHDespacho_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$FHDespacho_value}	</div>
+
+		
+</div>
+
+
+{END FHDespacho_fieldblock}
+											
+{BEGIN IdUbigueoDespacho_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdUbigueoDespacho}  r-vertical-field" data-fieldname="IdUbigueoDespacho" data-signal-error-for="IdUbigueoDespacho{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23} data-pageid="{$pageid}" data-field="IdUbigueoDespacho" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_IdUbigueoDespacho}">
+		
+		{BEGIN IdUbigueoDespacho_label}{$label Despacho IdUbigueoDespacho }{END IdUbigueoDespacho_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$IdUbigueoDespacho_value}	</div>
+
+		
+</div>
+
+
+{END IdUbigueoDespacho_fieldblock}
+											
+{BEGIN HoraMisa_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_HoraMisa}  r-vertical-field" data-fieldname="HoraMisa" data-signal-error-for="HoraMisa{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24} data-pageid="{$pageid}" data-field="HoraMisa" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_HoraMisa}">
+		
+		{BEGIN HoraMisa_label}{$label Despacho HoraMisa }{END HoraMisa_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$HoraMisa_value}	</div>
+
+		
+</div>
+
+
+{END HoraMisa_fieldblock}
+											
+{BEGIN TipoCremacion_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_TipoCremacion}  r-vertical-field" data-fieldname="TipoCremacion" data-signal-error-for="TipoCremacion{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25} data-pageid="{$pageid}" data-field="TipoCremacion" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_TipoCremacion}">
+		
+		{BEGIN TipoCremacion_label}{$label Despacho TipoCremacion }{END TipoCremacion_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$TipoCremacion_value}	</div>
+
+		
+</div>
+
+
+{END TipoCremacion_fieldblock}
+											
+{BEGIN IdPersonalDespacho_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdPersonalDespacho}  r-vertical-field" data-fieldname="IdPersonalDespacho" data-signal-error-for="IdPersonalDespacho{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26} data-pageid="{$pageid}" data-field="IdPersonalDespacho" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_IdPersonalDespacho}">
+		
+		{BEGIN IdPersonalDespacho_label}{$label Despacho IdPersonalDespacho }{END IdPersonalDespacho_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$IdPersonalDespacho_value}	</div>
+
+		
+</div>
+
+
+{END IdPersonalDespacho_fieldblock}
+											
+{BEGIN IdVehiculoDespacho_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_IdVehiculoDespacho}  r-vertical-field" data-fieldname="IdVehiculoDespacho" data-signal-error-for="IdVehiculoDespacho{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27} data-pageid="{$pageid}" data-field="IdVehiculoDespacho" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_IdVehiculoDespacho}">
+		
+		{BEGIN IdVehiculoDespacho_label}{$label Despacho IdVehiculoDespacho }{END IdVehiculoDespacho_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$IdVehiculoDespacho_value}	</div>
+
+		
+</div>
+
+
+{END IdVehiculoDespacho_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							Cerrar ventana			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+									<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit} data-pageid="{$pageid}" data-small >
+				<a  href="despacho_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		Editar		
+		</a>
+	</li>
+{END edit_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
